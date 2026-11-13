@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Permet à "import browser" de fonctionner depuis les tests sans installer le paquet.
+pythonpath = ["."]
+testpaths = ["tests"]
